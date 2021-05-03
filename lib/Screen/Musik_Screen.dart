@@ -8,6 +8,7 @@ class MusikScreen extends StatelessWidget {
         backgroundColor: Color.fromARGB(255, 196, 81, 81),
         title: Text("Home"),
       ),
+      drawer: Drawer(),
       body: SingleChildScrollView(
         child: Column(
           children: [
